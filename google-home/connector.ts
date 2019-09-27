@@ -5,8 +5,8 @@ export default class HomeClient {
 
     private readonly context: GoogleAssistant;
 
-    public constructor() {
-        this.context = new GoogleAssistant(GOOGLE_CONFIG.auth);
+    public constructor(authConfig?: any) {
+        this.context = new GoogleAssistant(authConfig || GOOGLE_CONFIG.auth as object);
         this.context.on('ready', () => {
             console.log('Google Assistant Connected');
         });

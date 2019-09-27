@@ -1,0 +1,25 @@
+{
+  "name": "dgh",
+  "version": "1.0.0",
+  "description": "a typescript wrapper that lets robots talk to a cool react app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spliitzx/discord-googlehome.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spliitzx/discord-googlehome/issues"
+  },
+  "homepage": "https://github.com/spliitzx/discord-googlehome#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.2",
+    "tsc-node": "0.0.3",
+    "typescript": "^3.6.3"
+  }
+}

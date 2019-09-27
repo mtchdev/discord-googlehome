@@ -4,4 +4,6 @@
  * A wrapper between the Google Home smart speaker and Discord.
  */
 
-console.log('hi!');
+import HomeClient from './google-home/connector';
+
+const client = new HomeClient();

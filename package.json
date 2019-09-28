@@ -24,6 +24,6 @@
   },
   "dependencies": {
     "@types/node": "^12.7.8",
-    "google-assistant": "^0.6.0"
+    "google-assistant-ts": "^0.1.0"
   }
 }

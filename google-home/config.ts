@@ -1,11 +1,16 @@
-import { pathToFileURL } from "url";
+import { AuthConfig, ConversationConfig } from 'google-assistant-ts';
 import path from 'path';
+
+export interface AssistantConfig {
+    auth: AuthConfig;
+    conversation?: ConversationConfig;
+}
 
 /**
  * Main Authentication Configuration
  * (for some reason google-assistant doesn't export typedefs like normal people)
  */
-export const GOOGLE_CONFIG: any = {
+export const GOOGLE_ASSISTANT_CONFIG: AssistantConfig = {
     auth: {
         /**
          * Key File Path
